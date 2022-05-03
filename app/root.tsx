@@ -50,12 +50,15 @@ export const loader: LoaderFunction = async ({ request }) => {
 
 export default function App() {
   return (
-    <html lang="en" className="h-full text-[97%] lg:text-[100%]">
+    <html
+      lang="en"
+      className="h-full overflow-x-hidden text-[97%] lg:text-[100%]"
+    >
       <head>
         <Meta />
         <Links />
       </head>
-      <body className="h-full font-poppins text-lg">
+      <body className="oveflow-x-hidden h-full font-poppins text-lg">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
