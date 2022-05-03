@@ -4,7 +4,7 @@ import ExperienceItem from "./experience-item";
 const ExperienceSection = () => {
   return (
     <div
-      className={`lg:py-18 relative rounded-md bg-brand-light px-8 py-16 before:absolute before:-top-80 before:-left-72 before:-z-10 before:h-[575px] before:w-[634px] before:bg-[url('/images/circles-whitebg.jpeg')] md:px-14 xl:py-24 xl:px-28`}
+      className={`lg:py-18 relative rounded-md bg-brand-light px-8 py-16 before:absolute before:-top-80 before:-left-72 before:-z-10 before:h-[575px] before:w-[634px] before:bg-[url('/images/circles-vector.svg')] md:px-14 xl:py-24 xl:px-28`}
     >
       <h3 className="mb-12 text-4xl font-semibold lg:mb-24">
         Some recent experience

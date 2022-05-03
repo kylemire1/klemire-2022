@@ -10,7 +10,7 @@ const HeroSection = () => {
           <span className="text-highlight">passion</span> and{" "}
           <span className="text-primary">enthusiasm</span> 🎉
         </h2>
-        <p className="prose col-span-full max-w-prose 2xl:col-span-4 2xl:max-w-md">
+        <p className="prose col-span-full max-w-prose 2xl:col-span-4 2xl:max-w-lg">
           I'm based in Chicago and am currently busy raising a Border Collie
           with my partner and working as a Senior Software Engineer at
           WideOrbit.
