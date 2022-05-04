@@ -10,12 +10,14 @@ const AboutBlurb = () => {
             Hey there! I'm Kyle Lemire.{" "}
           </span>
           I love to build accessible software with React.{" "}
-          <span aria-label="Love" role="img">
-            💜
-          </span>{" "}
-          <span aria-label="React" role="img">
-            ⚛️
-          </span>
+          <div className="whitespace-nowrap">
+            <span aria-label="Love" role="img">
+              💜
+            </span>{" "}
+            <span aria-label="React" role="img">
+              ⚛️
+            </span>
+          </div>
         </h5>
         <p className="mb-8 leading-relaxed">
           I have been a front end engineer for over 4 years, and in that time I
