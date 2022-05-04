@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div className="relative grid min-h-hero grid-cols-12">
       <div className="col-span-full space-y-6 xl:col-span-8">
-        <h2 className="mt-28 text-4xl font-semibold leading-snug md:text-5xl md:leading-tight">
+        <h2 className="mt-28 text-4xl font-semibold leading-snug md:text-5xl md:leading-snug">
           Approaching front end engineering with{" "}
           <span className="text-highlight">passion</span> and{" "}
           <span className="text-primary">enthusiasm</span>{" "}
