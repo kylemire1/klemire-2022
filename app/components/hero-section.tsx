@@ -26,7 +26,11 @@ const HeroSection = () => {
           <button className="button-primary">Get in touch</button>
         </div>
       </div>
-      <div className="absolute -right-32 top-44 -z-10 hidden lg:block xl:top-0 2xl:-top-14 2xl:-right-20">
+      <div
+        role="img"
+        aria-label="Kyle Lemire smiling among colored circles"
+        className="absolute -right-32 top-44 -z-10 hidden lg:block xl:top-0 2xl:-top-14 2xl:-right-20"
+      >
         <HeroPortrait />
       </div>
     </div>
