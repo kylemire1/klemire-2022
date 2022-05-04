@@ -5,11 +5,13 @@ const HeroSection = () => {
   return (
     <div className="relative grid min-h-hero grid-cols-12">
       <div className="col-span-full space-y-6 xl:col-span-8">
-        <h2 className="mt-28 text-5xl font-semibold leading-snug">
+        <h2 className="mt-28 text-4xl font-semibold leading-snug md:text-5xl md:leading-tight">
           Approaching front end engineering with{" "}
           <span className="text-highlight">passion</span> and{" "}
           <span className="text-primary">enthusiasm</span>{" "}
-          <span aria-label="confetti">🎉</span>
+          <span aria-label="confetti" role="img">
+            🎉
+          </span>
         </h2>
         <p className="col-span-full max-w-prose 2xl:col-span-4 2xl:max-w-lg">
           I'm based in Chicago and am currently busy raising a Border Collie

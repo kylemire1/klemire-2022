@@ -52,13 +52,13 @@ export default function App() {
   return (
     <html
       lang="en"
-      className="h-full overflow-x-hidden text-[97%] lg:text-[100%]"
+      className="h-full overflow-x-hidden text-[80%] md:text-[97%] lg:text-[100%]"
     >
       <head>
         <Meta />
         <Links />
       </head>
-      <body className="oveflow-x-hidden h-full font-poppins text-lg">
+      <body className="h-full overflow-x-hidden font-poppins text-lg">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
